@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_addProduct"
+            android:icon="@mipmap/ic_playlist_add_check_black_24dp"
+            android:title="Add Products" />
+        <item
+            android:id="@+id/drawer_menu_productList"
+            android:icon="@mipmap/ic_list_black_24dp"
+            android:title="Product List" />
+        <item
+            android:id="@+id/drawer_menu_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/drawer_menu_addnewproduct"
+            android:icon="@mipmap/ic_playlist_add_black_24dp"
+            android:title="Add New Product" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <!--      <item
+                      android:id="@+id/nav_share"
+                      android:icon="@drawable/ic_menu_share"
+                      android:title="Share" />-->
+            <item
+                android:id="@+id/drawer_menu_logout"
+                android:icon="@mipmap/ic_power_settings_new_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

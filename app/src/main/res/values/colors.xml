@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00acc1</color>
+    <color name="colorPrimaryDark">#0097a7</color>
+    <color name="colorAccent">#00acc1</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="view_background">#e8ecfa</color>
+    <color name="btn_bg">#277bec</color>
+    <color name="txt_font">#4e5572</color>
+    <color name="action_bar">#1f2649</color>
+    <color name="gereen">#1aaf33</color>
+
+    <color name="Red">#F44336</color>
+    <color name="Pink">#E91E63</color>
+    <color name="Purple">#9C27B0</color>
+    <color name="Deep_Purple">#673AB7</color>
+    <color name="Indigo">#3F51B5</color>
+    <color name="Blue">#2196F3</color>
+    <color name="Light_Blue">#03A9F4</color>
+    <color name="Cyan">#00BCD4</color>
+    <color name="Teal">#009688</color>
+    <color name="Green">#4CAF50</color>
+    <color name="orange">#FF9800</color>
+    <color name="DarkOrange">#ff7700</color>
+    <color name="Amber">#FFC107</color>
+    <color name="Deep_Orange">#795548</color>
+    <color name="Blue_Grey">#607D8B</color>
+    <color name="Light_Grey">#90A4AE</color>
+    <color name="White_Grey">#d1d7dc</color>
+    <color name="Light_Brown">#EFEBE9</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="blue">#33ccff</color>
+    <color name="lightBrown"> #D7CCC8</color>
+
+    <color name="background_color">#F1F1F1</color>
+    <color name="button_color">#4DD0E1</color>
+</resources>

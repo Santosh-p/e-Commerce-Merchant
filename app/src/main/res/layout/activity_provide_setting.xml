@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="myapp.com.groceryshopmerchant.ProvideSettingActivity">
+
+    <ScrollView
+        android:id="@+id/registration_setting_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+
+            <LinearLayout
+                android:id="@+id/registration_setting_upload_shopdetails_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+
+
+                <CheckBox
+                    android:id="@+id/registration_setting_checkBox_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Provides Home Delivery" />
+
+                <LinearLayout
+                    android:id="@+id/registration_setting_reglinearlayout_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/registration_setting_edt_home_delivery_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:digits=" 0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+                            android:hint="Add delivery time"
+                            android:inputType="text"
+                            android:maxLines="1"
+
+                            android:singleLine="true" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ex.In hours or in days" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <CheckBox
+                    android:id="@+id/registration_setting_checkBox_charges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home Delivery Charges" />
+
+                <LinearLayout
+                    android:id="@+id/registration_setting_reglinearlayout_charges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/registration_setting_edt_home_delivery_charges"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:digits=" 0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+                            android:hint="Set minimum amount for home delivery"
+                            android:inputType="text"
+                            android:maxLines="1"
+
+                            android:singleLine="true" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ex.Above 500 ₹ shopping" />
+
+                      </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/registration_setting_edt_shop_open_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Shop Open Time"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/registration_setting_edt_shop_close_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Shop Close Time"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/registration_setting_btn_save"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Save"
+
+                android:background="@drawable/button_background"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <!--  <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <android.support.design.widget.TextInputLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <EditText
+                      android:id="@+id/edt_shop_open_time"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:digits=" 0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
+                      android:hint="Set minimum ammmount for home delivery"
+                      android:inputType="text"
+                      android:maxLines="1"
+
+                      android:singleLine="true" />
+              </android.support.design.widget.TextInputLayout>
+
+
+
+          </LinearLayout>-->
+    </ScrollView>
+
+
+</LinearLayout>

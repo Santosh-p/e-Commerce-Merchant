@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "494040159568",
+    "firebase_url": "https://grocery-c2d3a.firebaseio.com",
+    "project_id": "grocery-c2d3a",
+    "storage_bucket": "grocery-c2d3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494040159568:android:b63b2cb32c3ff514",
+        "android_client_info": {
+          "package_name": "com.sveltoz.groceryshopcustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494040159568-jpap2jc3dko92r9q3re5th1aqv4gqfs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5NjPfceeCoSG3t4FRHdIyIx2pa86A39c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494040159568:android:ca33d3c02ae7c053",
+        "android_client_info": {
+          "package_name": "sveltoz.com.groceryshopmerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494040159568-jpap2jc3dko92r9q3re5th1aqv4gqfs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5NjPfceeCoSG3t4FRHdIyIx2pa86A39c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_refresh_allitems"
+     >
+
+<!--    <Button
+        android:id="@+id/EnterPays_addAtomPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Add Payments"
+        android:drawableLeft="@android:drawable/ic_input_add" />-->
+
+    <ListView
+        android:id="@+id/listview_product_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/Light_Grey"
+        android:dividerHeight="2dp"
+        tools:listitem="@layout/atom_pay_list_item"
+        >
+
+    </ListView>
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

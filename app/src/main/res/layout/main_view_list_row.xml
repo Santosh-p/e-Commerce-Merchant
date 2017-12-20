@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hisLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:paddingTop="10dp">
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">-->
+
+    <TextView
+        android:id="@+id/tvv_unit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="Unit"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvv_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="Price"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvv_mrp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="MRP"
+        android:textSize="15sp" />
+
+
+    <!-- <Button
+         android:id="@+id/btn_edit"
+         android:layout_width="0dp"
+         android:layout_weight="3"
+         android:onClick="EditProduct"
+         android:layout_height="wrap_content"
+         android:text="Edit"/>
+-->
+    <TextView
+        android:id="@+id/tv_edit_product"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="EditProduct"
+        android:text="@string/fa_edit"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/tv_delete_product"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="RemoveProduct"
+        android:text="@string/fa_delete"
+        android:textSize="25dp" />
+
+
+    <!--   </LinearLayout>-->
+
+</LinearLayout>
+
